@@ -16,7 +16,7 @@ class Account:
     def deposit(self, amount) -> float:  # increases account balance
         """
         Constructor to create the state of a person's deposit
-        :param: amount: Persons' balance amount on the account, when deposited.
+        :param: amount: Person's balance amount on the account, when deposited.
         """
         if self.__account_balance >= 0:
             self.__account_balance += amount
